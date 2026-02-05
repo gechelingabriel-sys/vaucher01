@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
     },
   },
 
-  base: "/cajafinal-20fe854b/",
+base: "/",
 
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
